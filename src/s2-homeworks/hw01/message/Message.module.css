@@ -1,0 +1,59 @@
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+.imageAndText {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
+}
+
+.imageAndText img {
+  padding: 15px;
+  height: 100px;
+  width: 100px;
+}
+
+.text {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 102, 204, 1);
+  padding-right: 8px;
+  padding-left: 8px;
+  height: 60px;
+  border-radius: 15px;
+}
+
+.text:after {
+  
+}
+
+.name {
+  align-self: flex-end;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.messageText {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.time {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  color: rgba(0, 0, 0, 1);
+  align-self: flex-end;
+  padding-right: 40px;
+}

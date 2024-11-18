@@ -1,36 +1,171 @@
 .button {
+  width: 132px;
+  height: 30px;
+  border-radius: 3px;
+  padding: 5px 24px 5px 24px;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 102, 204, 1);
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 102, 204, 1);
 }
 
 .disabled {
+  width: 132px;
+  height: 30px;
+  border-radius: 3px;
+  padding: 5px 24px 5px 24px;
+  gap: 10px;
+  opacity: 50%;
+  background-color: rgba(0, 77, 153, 1);
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 46, 92, 1);
 }
 
 .secondary {
+  width: 176px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 102, 204, 1);
+  padding: 5px 24px 5px 24px;
+  gap: 10px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 102, 204, 1);
 }
 
 .default {
+  width: 132px;
+  height: 30px;
+  border-radius: 3px;
+  padding: 5px 24px 5px 24px;
+  gap: 10px;
+  background-color: rgba(0, 102, 204, 1);
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1)
 }
 
 .red {
+  width: 132px;
+  height: 30px;
+  border-radius: 3px;
+  padding: 5px 24px 5px 24px;
+  gap: 10px;
+  background-color: rgba(204, 20, 57, 1);
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .default:hover {
+  width: 167px;
+  height: 30px;
+  border-radius: 3px;
+  padding: 5px 24px 5px 24px;
+  gap: 10px;
+  background-color: rgba(0, 128, 255, 1);
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .red:hover {
+  width: 167px;
+  height: 30px;
+  border-radius: 3px;
+  padding: 5px 24px 5px 24px;
+  gap: 10px;
+  background-color: rgba(255, 26, 71, 1);
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .secondary:hover {
+  width: 167px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px rgba(0, 102, 204, 1);
+  padding: 5px 24px 5px 24px;
+  background-color: rgba(229, 240, 250, 1);
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 102, 204, 1);
 }
 
-
 .default:active {
+  width: 149px;
+  height: 30px;
+  border-radius: 3px;
+  padding: 5px 24px 5px 24px;
+  gap: 10px;
+  background-color: rgba(0, 89, 178, 1);
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .secondary:active {
+  width: 149px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px rgba(0, 102, 204, 1);
+  padding: 5px 24px 5px 24px;
+  gap: 10px;
+  background-color: rgba(201, 229, 255, 1);
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 102, 204, 1);
 }
 
 .red:active {
+  width: 149px;
+  height: 30px;
+  border-radius: 3px;
+  padding: 5px 24px 5px 24px;
+  gap: 10px;
+  background-color: rgba(178, 18, 50, 1);
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .button:disabled {
+  width: 133px;
+  height: 30px;
+  border-radius: 3px;
+  padding: 5px 24px 5px 24px;
+  gap: 10px;
+  opacity: 50%;
+  background-color: rgba(0, 77, 153, 1);
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 46, 92, 1);
 }
